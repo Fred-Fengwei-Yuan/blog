@@ -20,10 +20,8 @@ module.exports = {
             { text: 'CV', link: '/CV/' },
             {
                 text: 'Notes',
-                link: '/notes/',
                 items: [{
                         text: 'Frontend',
-                        link: '/notes/frontend/',
                         items: [
                             { text: 'HTML5', link: '/notes/frontend/HTML5' },
                             { text: 'CSS3', link: '/notes/frontend/CSS3' },
@@ -32,7 +30,6 @@ module.exports = {
                     },
                     {
                         text: 'Backend',
-                        link: '/notes/backend/',
                         items: [
                             { text: '.NET', link: '/notes/backend/.NET' },
                             { text: 'Node.js', link: '/notes/backend/Node.js' },
@@ -41,9 +38,17 @@ module.exports = {
                 ]
             },
             { text: 'Articals', link: '/articals/' },
-            { text: 'Github', link: 'https://github.com/Fred-Fengwei-Yuan' },
         ],
         //Auto sidebar for single pages
         sidebar: 'auto',
+        sidebarDepth: 4,
+        // GitHub link and edit this page at bottom
+        repo: 'Fred-Fengwei-Yuan/blog',
+        repoLabel: 'GitHub',
+        // Document path in GitHub
+        docsDir: 'docs',
+        //enable edit this page
+        editLinks: true,
+        editLinkText: 'Help me improve this page'
     },
 }

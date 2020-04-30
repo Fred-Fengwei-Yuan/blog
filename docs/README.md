@@ -4,11 +4,11 @@ heroImage: /images/hero.png
 actionText: About me →
 actionLink: /CV/
 features:
-- title: 简明优先
-  details: 对以 markdown 为中心的项目结构，做最简化的配置，帮助你专注于创作。
-- title: Vue 驱动
-  details: 享用 Vue + webpack 开发环境，在 markdown 中使用 Vue 组件，并通过 Vue 开发自定义主题。
-- title: 性能高效
-  details: VuePress 将每个页面生成为预渲染的静态 HTML，每个页面加载之后，然后作为单页面应用程序(SPA)运行。
-footer: MIT Licensed | Copyright © 2018-present Evan You
+- title: CV
+  details: Currently looking for a full time, please connect me if you are interested.
+- title: Notes
+  details: The place to display my study notes, and record my learning procress.
+- title: Articles
+  details: Reproduced and orginal technical articals.
+footer: MIT Licensed | Copyright © 2020.5.1-present Fengwei Yuan
 ---
