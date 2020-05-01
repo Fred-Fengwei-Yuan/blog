@@ -23,16 +23,16 @@ module.exports = {
                 items: [{
                         text: 'Frontend',
                         items: [
-                            { text: 'HTML5', link: '/notes/frontend/HTML5' },
-                            { text: 'CSS3', link: '/notes/frontend/CSS3' },
-                            { text: 'JavaScript', link: '/notes/frontend/JavaScript' },
+                            { text: 'HTML5', link: '/notes/frontend/HTML5/' },
+                            { text: 'CSS3', link: '/notes/frontend/CSS3/' },
+                            { text: 'JavaScript', link: '/notes/frontend/JavaScript/' },
                         ]
                     },
                     {
                         text: 'Backend',
                         items: [
-                            { text: '.NET', link: '/notes/backend/.NET' },
-                            { text: 'Node.js', link: '/notes/backend/Node.js' },
+                            { text: '.NET', link: '/notes/backend/NET/' },
+                            { text: 'Node.js', link: '/notes/backend/Node/' },
                         ]
                     }
                 ]
@@ -41,7 +41,7 @@ module.exports = {
         ],
         //Auto sidebar for single pages
         sidebar: 'auto',
-        sidebarDepth: 4,
+        sidebarDepth: 2,
         // GitHub link and edit this page at bottom
         repo: 'Fred-Fengwei-Yuan/blog',
         repoLabel: 'GitHub',
